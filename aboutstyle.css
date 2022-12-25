@@ -48,19 +48,30 @@ body {
 }
 
 #flexCenter {
+  position: absolute;
+  top: 0;
+  left: 0;
+
   display: flex;
 
   justify-content: center;
   align-items: center;
 
-  height: 60vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 #displayContainer {
-  width: 50vw;
-  height: 50vh;
+  text-align: center;
+
+  width: 70vw;
+  height: 75vh;
 }
 
 li {
   font-size: 20px;
+}
+
+h3 {
+  text-decoration: underline;
 }
